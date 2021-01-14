@@ -18,6 +18,10 @@
 		928B410E25AF8F6500F0634E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 928B410C25AF8F6500F0634E /* LaunchScreen.storyboard */; };
 		928B411925AF8F6600F0634E /* recipeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928B411825AF8F6600F0634E /* recipeTests.swift */; };
 		928B412425AF8F6600F0634E /* recipeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928B412325AF8F6600F0634E /* recipeUITests.swift */; };
+		929A073B25B1016B00C47264 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929A073925B1016B00C47264 /* LoginViewController.swift */; };
+		929A073C25B1016B00C47264 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 929A073A25B1016B00C47264 /* LoginViewController.xib */; };
+		929A074225B1018B00C47264 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929A074025B1018B00C47264 /* RegisterViewController.swift */; };
+		929A074325B1018C00C47264 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 929A074125B1018B00C47264 /* RegisterViewController.xib */; };
 		92BEEADC25AFB1F700D39411 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 92BEEADB25AFB1F700D39411 /* GoogleService-Info.plist */; };
 		A1FD8FB0348CB6A159338577 /* Pods_recipe_recipeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 167E64865996315C8497CD07 /* Pods_recipe_recipeUITests.framework */; };
 		F1384E10E0F97BE36AF6F739 /* Pods_recipeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB366D72DB643149F4D0617B /* Pods_recipeTests.framework */; };
@@ -63,6 +67,10 @@
 		928B411F25AF8F6600F0634E /* recipeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = recipeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		928B412325AF8F6600F0634E /* recipeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recipeUITests.swift; sourceTree = "<group>"; };
 		928B412525AF8F6600F0634E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		929A073925B1016B00C47264 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		929A073A25B1016B00C47264 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		929A074025B1018B00C47264 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		929A074125B1018B00C47264 /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
 		92BEEADB25AFB1F700D39411 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B3A555153B7166A0C07FB122 /* Pods-recipe-recipeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-recipe-recipeUITests.debug.xcconfig"; path = "Target Support Files/Pods-recipe-recipeUITests/Pods-recipe-recipeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DB366D72DB643149F4D0617B /* Pods_recipeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_recipeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -194,6 +202,33 @@
 			path = recipeUITests;
 			sourceTree = "<group>";
 		};
+		929A073625B100DB00C47264 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				929A073825B1012E00C47264 /* Sign In */,
+				929A073725B1012500C47264 /* Register */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		929A073725B1012500C47264 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				929A074025B1018B00C47264 /* RegisterViewController.swift */,
+				929A074125B1018B00C47264 /* RegisterViewController.xib */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		929A073825B1012E00C47264 /* Sign In */ = {
+			isa = PBXGroup;
+			children = (
+				929A073925B1016B00C47264 /* LoginViewController.swift */,
+				929A073A25B1016B00C47264 /* LoginViewController.xib */,
+			);
+			path = "Sign In";
+			sourceTree = "<group>";
+		};
 		92F7C05325B0EBB000F5C3DA /* Sources */ = {
 			isa = PBXGroup;
 			children = (
@@ -213,6 +248,7 @@
 		92F7C05525B0EBD900F5C3DA /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				929A073625B100DB00C47264 /* Login */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -325,10 +361,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				929A073C25B1016B00C47264 /* LoginViewController.xib in Resources */,
 				928B410E25AF8F6500F0634E /* LaunchScreen.storyboard in Resources */,
 				92BEEADC25AFB1F700D39411 /* GoogleService-Info.plist in Resources */,
 				928B410B25AF8F6500F0634E /* Assets.xcassets in Resources */,
 				928B410925AF8F6300F0634E /* Main.storyboard in Resources */,
+				929A074325B1018C00C47264 /* RegisterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,7 +494,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				929A073B25B1016B00C47264 /* LoginViewController.swift in Sources */,
 				9285DF1325AFC21800E4AD2C /* Network.swift in Sources */,
+				929A074225B1018B00C47264 /* RegisterViewController.swift in Sources */,
 				9285DF0B25AFC07F00E4AD2C /* User.swift in Sources */,
 				928B410625AF8F6300F0634E /* ViewController.swift in Sources */,
 				928B410225AF8F6300F0634E /* AppDelegate.swift in Sources */,
