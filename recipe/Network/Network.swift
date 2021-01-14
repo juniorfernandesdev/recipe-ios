@@ -54,34 +54,4 @@ class Network {
         }
     }
 
-
-
-    func isLogged() {
-        if Auth.auth().currentUser?.uid != nil {
-            print("Usuario logado")
-        } else {
-            print("Usuario desconectado")
-        }
-    }
-
-    func loggins(email: String, password: String) {
-        Auth.auth().signIn(withEmail: email, password: password) { (result, error) in
-            guard error == nil else {
-                print(error.debugDescription)
-                return
-            }
-        }
-    }
-
-    func logaut() {
-
-        do {
-            try Auth.auth().signOut()
-        } catch {
-            print(error.localizedDescription)
-        }
-
-    }
-
-
 }
