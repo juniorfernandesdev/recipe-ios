@@ -9,3 +9,10 @@
 - Firebase Auth
 - Banco Local: Realm
 - View code
+
+**Features**
+
+- [ ]  Login - Firebase
+- [ ]  Manter receitas
+- [ ]  Autenticação com redes sociais
+- [ ]  Login via touchID / FaceID
