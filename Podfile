@@ -10,7 +10,11 @@ target 'recipe' do
 	pod 'Firebase/Auth'
 	pod 'Firebase/Firestore'
 	pod 'Firebase/Storage'
+
+
 	pod 'lottie-ios'
+	pod 'TextFieldEffects'
+	pod 'IQKeyboardManagerSwift'
 
   target 'recipeTests' do
     inherit! :search_paths
