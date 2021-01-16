@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		71947C347D89C7D3535B0BC8 /* Pods_recipe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C95B470926D7E9E091F465 /* Pods_recipe.framework */; };
+		92446B2A25B2092600CC1090 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 92446B2925B2092600CC1090 /* GoogleService-Info.plist */; };
+		92446B4A25B20A1500CC1090 /* REAlertas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92446B4925B20A1500CC1090 /* REAlertas.swift */; };
+		92446B5E25B22D1800CC1090 /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92446B5D25B22D1800CC1090 /* Menu.storyboard */; };
+		92446B9F25B22F7900CC1090 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92446B9E25B22F7900CC1090 /* Home.storyboard */; };
+		92446BA425B22FFE00CC1090 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92446BA325B22FFE00CC1090 /* HomeViewController.swift */; };
 		9285DF0B25AFC07F00E4AD2C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9285DF0A25AFC07F00E4AD2C /* User.swift */; };
 		9285DF1325AFC21800E4AD2C /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9285DF1225AFC21800E4AD2C /* Network.swift */; };
 		928B410225AF8F6300F0634E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928B410125AF8F6300F0634E /* AppDelegate.swift */; };
@@ -21,7 +26,6 @@
 		929A074225B1018B00C47264 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929A074025B1018B00C47264 /* RegisterViewController.swift */; };
 		929A074325B1018C00C47264 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 929A074125B1018B00C47264 /* RegisterViewController.xib */; };
 		A1FD8FB0348CB6A159338577 /* Pods_recipe_recipeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 167E64865996315C8497CD07 /* Pods_recipe_recipeUITests.framework */; };
-		C38B2C1925B10F61009E4BA1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C38B2C1825B10F61009E4BA1 /* GoogleService-Info.plist */; };
 		C3C227D525B1349A006F63B7 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C227D425B1349A006F63B7 /* UIViewController.swift */; };
 		F1384E10E0F97BE36AF6F739 /* Pods_recipeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB366D72DB643149F4D0617B /* Pods_recipeTests.framework */; };
 /* End PBXBuildFile section */
@@ -50,6 +54,11 @@
 		55C95B470926D7E9E091F465 /* Pods_recipe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_recipe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FD63BAB3A6C5CC840510DEC /* Pods-recipe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-recipe.release.xcconfig"; path = "Target Support Files/Pods-recipe/Pods-recipe.release.xcconfig"; sourceTree = "<group>"; };
 		810E49942A30D1F7663B4A6F /* Pods-recipeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-recipeTests.debug.xcconfig"; path = "Target Support Files/Pods-recipeTests/Pods-recipeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		92446B2925B2092600CC1090 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		92446B4925B20A1500CC1090 /* REAlertas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REAlertas.swift; sourceTree = "<group>"; };
+		92446B5D25B22D1800CC1090 /* Menu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Menu.storyboard; sourceTree = "<group>"; };
+		92446B9E25B22F7900CC1090 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		92446BA325B22FFE00CC1090 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		9285DF0A25AFC07F00E4AD2C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		9285DF1225AFC21800E4AD2C /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		928B40FE25AF8F6300F0634E /* recipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = recipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,7 +78,6 @@
 		929A074025B1018B00C47264 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		929A074125B1018B00C47264 /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
 		B3A555153B7166A0C07FB122 /* Pods-recipe-recipeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-recipe-recipeUITests.debug.xcconfig"; path = "Target Support Files/Pods-recipe-recipeUITests/Pods-recipe-recipeUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		C38B2C1825B10F61009E4BA1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C3C227D425B1349A006F63B7 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		DB366D72DB643149F4D0617B /* Pods_recipeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_recipeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF93A891DA2835FC5293896E /* Pods-recipe-recipeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-recipe-recipeUITests.release.xcconfig"; path = "Target Support Files/Pods-recipe-recipeUITests/Pods-recipe-recipeUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -126,6 +134,39 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		92446B4725B209EB00CC1090 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				92446B4825B209F200CC1090 /* Helpers */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		92446B4825B209F200CC1090 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				92446B4925B20A1500CC1090 /* REAlertas.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		92446B5125B2267E00CC1090 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				92446B5D25B22D1800CC1090 /* Menu.storyboard */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		92446B5225B2268600CC1090 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				92446B9E25B22F7900CC1090 /* Home.storyboard */,
+				92446BA325B22FFE00CC1090 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		9285DF0825AFC04200E4AD2C /* Network */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,13 +209,14 @@
 		928B410025AF8F6300F0634E /* recipe */ = {
 			isa = PBXGroup;
 			children = (
+				92446B4725B209EB00CC1090 /* Resources */,
 				9285DF0825AFC04200E4AD2C /* Network */,
 				92F7C05325B0EBB000F5C3DA /* Sources */,
 				928B410125AF8F6300F0634E /* AppDelegate.swift */,
 				928B410325AF8F6300F0634E /* SceneDelegate.swift */,
 				928B410A25AF8F6500F0634E /* Assets.xcassets */,
 				928B410C25AF8F6500F0634E /* LaunchScreen.storyboard */,
-				C38B2C1825B10F61009E4BA1 /* GoogleService-Info.plist */,
+				92446B2925B2092600CC1090 /* GoogleService-Info.plist */,
 				928B410F25AF8F6500F0634E /* Info.plist */,
 			);
 			path = recipe;
@@ -245,6 +287,8 @@
 		92F7C05525B0EBD900F5C3DA /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				92446B5225B2268600CC1090 /* Home */,
+				92446B5125B2267E00CC1090 /* Menu */,
 				929A073625B100DB00C47264 /* Login */,
 			);
 			path = Modules;
@@ -366,11 +410,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92446B9F25B22F7900CC1090 /* Home.storyboard in Resources */,
+				92446B5E25B22D1800CC1090 /* Menu.storyboard in Resources */,
 				929A073C25B1016B00C47264 /* LoginViewController.xib in Resources */,
 				928B410E25AF8F6500F0634E /* LaunchScreen.storyboard in Resources */,
+				92446B2A25B2092600CC1090 /* GoogleService-Info.plist in Resources */,
 				928B410B25AF8F6500F0634E /* Assets.xcassets in Resources */,
 				929A074325B1018C00C47264 /* RegisterViewController.xib in Resources */,
-				C38B2C1925B10F61009E4BA1 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +549,8 @@
 				9285DF1325AFC21800E4AD2C /* Network.swift in Sources */,
 				929A074225B1018B00C47264 /* RegisterViewController.swift in Sources */,
 				9285DF0B25AFC07F00E4AD2C /* User.swift in Sources */,
+				92446BA425B22FFE00CC1090 /* HomeViewController.swift in Sources */,
+				92446B4A25B20A1500CC1090 /* REAlertas.swift in Sources */,
 				928B410225AF8F6300F0634E /* AppDelegate.swift in Sources */,
 				928B410425AF8F6300F0634E /* SceneDelegate.swift in Sources */,
 			);
