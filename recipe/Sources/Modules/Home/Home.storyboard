@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qvu-4Q-UOc">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17504.1"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home-->
+        <scene sceneID="nfv-Ie-XZU">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="Xfx-Yg-6dQ" customClass="HomeViewController" customModule="recipe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BTW-ne-1uE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XRx-UN-mKN">
+                                <rect key="frame" x="337" y="61" width="30" height="30"/>
+                                <state key="normal" title="Sair"/>
+                                <connections>
+                                    <action selector="Logout:" destination="Xfx-Yg-6dQ" eventType="touchUpInside" id="8ne-uv-05j"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="wNh-U9-mKN"/>
+                        <color key="backgroundColor" systemColor="systemPinkColor"/>
+                        <constraints>
+                            <constraint firstItem="wNh-U9-mKN" firstAttribute="trailing" secondItem="XRx-UN-mKN" secondAttribute="trailing" constant="47" id="g16-L6-ds9"/>
+                            <constraint firstItem="XRx-UN-mKN" firstAttribute="top" secondItem="wNh-U9-mKN" secondAttribute="top" constant="17" id="hzC-HM-xdI"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" selectedImage="house.fill" catalog="system" id="5Uf-fX-Ifz"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PCc-H7-OKw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1049" y="210"/>
+        </scene>
+        <!--Receitas-->
+        <scene sceneID="fF6-Aw-bqB">
+            <objects>
+                <viewController id="wf0-SA-9lO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wYF-sz-D13">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="JVT-B8-MIN"/>
+                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Receitas" image="text.book.closed.fill" catalog="system" id="g1Z-ej-aF8"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="73w-ab-V9X" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-300" y="193"/>
+        </scene>
+        <!--Circle Bar Controller-->
+        <scene sceneID="QoK-wE-rR2">
+            <objects>
+                <tabBarController storyboardIdentifier="HomeTabController" modalPresentationStyle="fullScreen" id="qvu-4Q-UOc" customClass="SHCircleBarController" customModule="CircleBar" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="lm2-sM-cbe" customClass="SHCircleBar" customModule="CircleBar">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Xfx-Yg-6dQ" kind="relationship" relationship="viewControllers" id="hbT-Fj-sK7"/>
+                        <segue destination="wf0-SA-9lO" kind="relationship" relationship="viewControllers" id="lCQ-Ba-rX6"/>
+                        <segue destination="Klu-RN-oHq" kind="relationship" relationship="viewControllers" id="JSt-lb-5hj"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Llf-jH-AOc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-172" y="-568"/>
+        </scene>
+        <!--Favoritos-->
+        <scene sceneID="if2-Ca-rVT">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="Klu-RN-oHq" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mYx-xl-2jf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="9L2-85-HOt"/>
+                        <color key="backgroundColor" name="PrimaryColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Favoritos" image="heart.fill" catalog="system" id="MVX-vP-wZy"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5JR-P5-JZm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="422" y="210"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="lm2-sM-cbe">
+            <size key="intrinsicContentSize" width="-1" height="83"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="heart.fill" catalog="system" width="128" height="109"/>
+        <image name="house.fill" catalog="system" width="128" height="106"/>
+        <image name="text.book.closed.fill" catalog="system" width="115" height="128"/>
+        <namedColor name="PrimaryColor">
+            <color red="0.96100002527236938" green="0.75700002908706665" blue="0.35699999332427979" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -7,10 +7,13 @@
 
 import UIKit
 import TextFieldEffects
+import SwiftMessages
+import extension_recipes
 
 class LoginViewController: UIViewController {
     
     // MARK: - Properties
+    var loading: UIView?
     
     // MARK: - IBOutlets
     @IBOutlet weak var email: UITextField!
@@ -21,9 +24,7 @@ class LoginViewController: UIViewController {
     
     @IBOutlet weak var emailView: UIView!
     @IBOutlet weak var senhaView: UIView!
-    
-    
-    
+
     // MARK: - View LifeCycle
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,8 +39,7 @@ class LoginViewController: UIViewController {
     @IBAction func btnEntrarTapped(_ sender: UIButton) {
         guard let email = self.email.text, !(self.email.text?.isEmpty ?? false),
               let senha = self.senha.text, !(self.senha.text?.isEmpty ?? false)  else {
-            //error
-            print("Preencha os campos")
+            REAlertas.shared.showAlert(title: "AVISO", message: "Favor preenchar os campos", type: .error)
             return
         }
         self.login(email: email, senha: senha)
@@ -47,9 +47,9 @@ class LoginViewController: UIViewController {
     
     @IBAction func btnRegistrarTapped(_ sender: UIButton) {
         let registerVC = RegisterViewController()
+        registerVC.delegate = self
         self.present(registerVC, animated: true, completion: nil)
     }
-    
     
     // MARK: - Public Methods
     
@@ -65,13 +65,16 @@ class LoginViewController: UIViewController {
     }
     
     private func login(email: String, senha: String){
+        let isLoadding = self.showLoading()
         Network.shared.loggin(email: email, senha: senha) { (usuario) in
-            print(usuario)
+            self.dismiss(animated: true, completion: nil)
+            REAlertas.shared.showAlert(title: "SUCESSO", message: "Login efetuado com sucesso!", type: .sucess)
+            self.hideLoading(v: isLoadding)
         } onError: { (error) in
-            print(error.localizedDescription)
+            REAlertas.shared.showAlert(title: "ERROR", message: error.localizedDescription, type: .error)
+            self.hideLoading(v: isLoadding)
         }
     }
-
 }
 
 // MARK: - Textfield functions
@@ -131,3 +134,8 @@ extension LoginViewController: UITextFieldDelegate{
     }
 }
 
+extension LoginViewController: LoginSucess {
+    func userCreatedSucess() {
+        self.dismiss(animated: true, completion: nil)
+    }
+}
