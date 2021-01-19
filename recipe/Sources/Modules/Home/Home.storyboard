@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qvu-4Q-UOc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qvu-4Q-UOc">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17504.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -24,19 +24,29 @@
                                     <action selector="Logout:" destination="Xfx-Yg-6dQ" eventType="touchUpInside" id="8ne-uv-05j"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p7b-Rm-wq1">
+                                <rect key="frame" x="164" y="433" width="86" height="30"/>
+                                <state key="normal" title="ADC Receita"/>
+                                <connections>
+                                    <action selector="adcReceitaTapped:" destination="Xfx-Yg-6dQ" eventType="touchUpInside" id="2Mk-OD-gdB"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="wNh-U9-mKN"/>
                         <color key="backgroundColor" systemColor="systemPinkColor"/>
                         <constraints>
+                            <constraint firstItem="p7b-Rm-wq1" firstAttribute="centerY" secondItem="BTW-ne-1uE" secondAttribute="centerY" id="1gU-ut-AxH"/>
+                            <constraint firstItem="p7b-Rm-wq1" firstAttribute="centerX" secondItem="BTW-ne-1uE" secondAttribute="centerX" id="CSw-gR-Si4"/>
                             <constraint firstItem="wNh-U9-mKN" firstAttribute="trailing" secondItem="XRx-UN-mKN" secondAttribute="trailing" constant="47" id="g16-L6-ds9"/>
                             <constraint firstItem="XRx-UN-mKN" firstAttribute="top" secondItem="wNh-U9-mKN" secondAttribute="top" constant="17" id="hzC-HM-xdI"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" selectedImage="house.fill" catalog="system" id="5Uf-fX-Ifz"/>
+                    <navigationItem key="navigationItem" id="HsB-cR-GWP"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PCc-H7-OKw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1049" y="210"/>
+            <point key="canvasLocation" x="-1112" y="193"/>
         </scene>
         <!--Receitas-->
         <scene sceneID="fF6-Aw-bqB">
@@ -64,7 +74,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="Xfx-Yg-6dQ" kind="relationship" relationship="viewControllers" id="hbT-Fj-sK7"/>
+                        <segue destination="Xfx-Yg-6dQ" kind="relationship" relationship="viewControllers" id="4dJ-JQ-Npg"/>
                         <segue destination="wf0-SA-9lO" kind="relationship" relationship="viewControllers" id="lCQ-Ba-rX6"/>
                         <segue destination="Klu-RN-oHq" kind="relationship" relationship="viewControllers" id="JSt-lb-5hj"/>
                     </connections>

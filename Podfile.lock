@@ -311,6 +311,7 @@ PODS:
   - nanopb/decode (2.30906.0)
   - nanopb/encode (2.30906.0)
   - PromisesObjC (1.2.12)
+  - StepIndicator (1.0.8)
   - SwiftMessages (8.0.5):
     - SwiftMessages/App (= 8.0.5)
   - SwiftMessages/App (8.0.5)
@@ -324,6 +325,7 @@ DEPENDENCIES:
   - Firebase/Storage
   - IQKeyboardManagerSwift
   - lottie-ios
+  - StepIndicator (~> 1.0)
   - SwiftMessages
   - TextFieldEffects
 
@@ -348,6 +350,7 @@ SPEC REPOS:
     - lottie-ios
     - nanopb
     - PromisesObjC
+    - StepIndicator
     - SwiftMessages
     - TextFieldEffects
 
@@ -381,9 +384,10 @@ SPEC CHECKSUMS:
   lottie-ios: 3a3758ef5a008e762faec9c9d50a39842f26d124
   nanopb: 1bf24dd71191072e120b83dd02d08f3da0d65e53
   PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
+  StepIndicator: 748b293f671355b021253f82031ac002f153dc81
   SwiftMessages: 539fd54a766bf08ec667e90aa141c44b8b8aaa55
   TextFieldEffects: 529b8aff706fb40f82c41c780c0777941a893796
 
-PODFILE CHECKSUM: 6e94cc14c05418fa4173c6b91e52d50d46263114
+PODFILE CHECKSUM: 5d3ae51c38c43361c7e29898c9a1153416cf4d6f
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.10.1

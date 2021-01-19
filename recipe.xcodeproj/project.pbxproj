@@ -26,6 +26,8 @@
 		929A074225B1018B00C47264 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929A074025B1018B00C47264 /* RegisterViewController.swift */; };
 		929A074325B1018C00C47264 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 929A074125B1018B00C47264 /* RegisterViewController.xib */; };
 		A1FD8FB0348CB6A159338577 /* Pods_recipe_recipeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 167E64865996315C8497CD07 /* Pods_recipe_recipeUITests.framework */; };
+		C3B1372425B662210078207C /* CadastroReceitaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B1372225B662210078207C /* CadastroReceitaViewController.swift */; };
+		C3B1372525B662210078207C /* CadastroReceitaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3B1372325B662210078207C /* CadastroReceitaViewController.xib */; };
 		C3C227D525B1349A006F63B7 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C227D425B1349A006F63B7 /* UIViewController.swift */; };
 		F1384E10E0F97BE36AF6F739 /* Pods_recipeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB366D72DB643149F4D0617B /* Pods_recipeTests.framework */; };
 /* End PBXBuildFile section */
@@ -78,6 +80,8 @@
 		929A074025B1018B00C47264 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		929A074125B1018B00C47264 /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
 		B3A555153B7166A0C07FB122 /* Pods-recipe-recipeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-recipe-recipeUITests.debug.xcconfig"; path = "Target Support Files/Pods-recipe-recipeUITests/Pods-recipe-recipeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C3B1372225B662210078207C /* CadastroReceitaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroReceitaViewController.swift; sourceTree = "<group>"; };
+		C3B1372325B662210078207C /* CadastroReceitaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CadastroReceitaViewController.xib; sourceTree = "<group>"; };
 		C3C227D425B1349A006F63B7 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		DB366D72DB643149F4D0617B /* Pods_recipeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_recipeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF93A891DA2835FC5293896E /* Pods-recipe-recipeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-recipe-recipeUITests.release.xcconfig"; path = "Target Support Files/Pods-recipe-recipeUITests/Pods-recipe-recipeUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -287,11 +291,37 @@
 		92F7C05525B0EBD900F5C3DA /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				C3B1372025B661FF0078207C /* Receitas */,
 				92446B5225B2268600CC1090 /* Home */,
 				92446B5125B2267E00CC1090 /* Menu */,
 				929A073625B100DB00C47264 /* Login */,
 			);
 			path = Modules;
+			sourceTree = "<group>";
+		};
+		C326DE3325B6725A00CD2893 /* StepView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = StepView;
+			sourceTree = "<group>";
+		};
+		C3B1372025B661FF0078207C /* Receitas */ = {
+			isa = PBXGroup;
+			children = (
+				C3B1372125B662060078207C /* CadastroReceita */,
+			);
+			path = Receitas;
+			sourceTree = "<group>";
+		};
+		C3B1372125B662060078207C /* CadastroReceita */ = {
+			isa = PBXGroup;
+			children = (
+				C326DE3325B6725A00CD2893 /* StepView */,
+				C3B1372225B662210078207C /* CadastroReceitaViewController.swift */,
+				C3B1372325B662210078207C /* CadastroReceitaViewController.xib */,
+			);
+			path = CadastroReceita;
 			sourceTree = "<group>";
 		};
 		C3C227D325B1348F006F63B7 /* Extensions */ = {
@@ -415,6 +445,7 @@
 				929A073C25B1016B00C47264 /* LoginViewController.xib in Resources */,
 				928B410E25AF8F6500F0634E /* LaunchScreen.storyboard in Resources */,
 				92446B2A25B2092600CC1090 /* GoogleService-Info.plist in Resources */,
+				C3B1372525B662210078207C /* CadastroReceitaViewController.xib in Resources */,
 				928B410B25AF8F6500F0634E /* Assets.xcassets in Resources */,
 				929A074325B1018C00C47264 /* RegisterViewController.xib in Resources */,
 			);
@@ -549,6 +580,7 @@
 				9285DF1325AFC21800E4AD2C /* Network.swift in Sources */,
 				929A074225B1018B00C47264 /* RegisterViewController.swift in Sources */,
 				9285DF0B25AFC07F00E4AD2C /* User.swift in Sources */,
+				C3B1372425B662210078207C /* CadastroReceitaViewController.swift in Sources */,
 				92446BA425B22FFE00CC1090 /* HomeViewController.swift in Sources */,
 				92446B4A25B20A1500CC1090 /* REAlertas.swift in Sources */,
 				928B410225AF8F6300F0634E /* AppDelegate.swift in Sources */,

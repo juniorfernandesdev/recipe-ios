@@ -13,6 +13,11 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.isLogged()
+        self.configureUI()
+    }
+    
+    private func configureUI(){
+        self.navigationController?.navigationBar.isHidden = true
     }
 
     private func isLogged() {
@@ -37,4 +42,11 @@ class HomeViewController: UIViewController {
             REAlertas.shared.showAlert(title: "ERROR", message: "Não foi possivel desconectar!", type: .error)
         }
     }
+    
+    @IBAction func adcReceitaTapped(_ sender: UIButton) {
+        let vc = CadastroReceitaViewController()
+        vc.modalPresentationStyle = .fullScreen
+        self.present(vc, animated: true, completion: nil)
+    }
+    
 }
