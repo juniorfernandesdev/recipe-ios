@@ -7,7 +7,7 @@
 
 import UIKit
 
-class RecomendacoesViewController: UITabBarController {
+class RecomendacoesViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,5 +25,8 @@ class RecomendacoesViewController: UITabBarController {
         // Pass the selected object to the new view controller.
     }
     */
+    @IBAction func botonClose(_ sender: UIButton) {
+        dismiss(animated: true, completion: nil)
+    }
 
 }
