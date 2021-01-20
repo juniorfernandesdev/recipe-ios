@@ -13,6 +13,14 @@
 		92446B5E25B22D1800CC1090 /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92446B5D25B22D1800CC1090 /* Menu.storyboard */; };
 		92446B9F25B22F7900CC1090 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92446B9E25B22F7900CC1090 /* Home.storyboard */; };
 		92446BA425B22FFE00CC1090 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92446BA325B22FFE00CC1090 /* HomeViewController.swift */; };
+		924B330125B7691E0060AC6D /* RecomendacoesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924B32FF25B7691E0060AC6D /* RecomendacoesViewController.swift */; };
+		924B330225B7691E0060AC6D /* RecomendacoesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 924B330025B7691E0060AC6D /* RecomendacoesViewController.xib */; };
+		924B330A25B774F30060AC6D /* InserirItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924B330825B774F20060AC6D /* InserirItemViewController.swift */; };
+		924B330B25B774F30060AC6D /* InserirItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 924B330925B774F20060AC6D /* InserirItemViewController.xib */; };
+		924B338325B7A8E60060AC6D /* StepOneTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924B338125B7A8E60060AC6D /* StepOneTableViewCell.swift */; };
+		924B338425B7A8E60060AC6D /* StepOneTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 924B338225B7A8E60060AC6D /* StepOneTableViewCell.xib */; };
+		924B338A25B7AD1E0060AC6D /* StepTwoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924B338825B7AD1E0060AC6D /* StepTwoTableViewCell.swift */; };
+		924B338B25B7AD1E0060AC6D /* StepTwoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 924B338925B7AD1E0060AC6D /* StepTwoTableViewCell.xib */; };
 		9285DF0B25AFC07F00E4AD2C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9285DF0A25AFC07F00E4AD2C /* User.swift */; };
 		9285DF1325AFC21800E4AD2C /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9285DF1225AFC21800E4AD2C /* Network.swift */; };
 		928B410225AF8F6300F0634E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928B410125AF8F6300F0634E /* AppDelegate.swift */; };
@@ -25,6 +33,14 @@
 		929A073C25B1016B00C47264 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 929A073A25B1016B00C47264 /* LoginViewController.xib */; };
 		929A074225B1018B00C47264 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929A074025B1018B00C47264 /* RegisterViewController.swift */; };
 		929A074325B1018C00C47264 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 929A074125B1018B00C47264 /* RegisterViewController.xib */; };
+		92B848B425B7AE4D00A61304 /* StepThreeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B848B225B7AE4D00A61304 /* StepThreeTableViewCell.swift */; };
+		92B848B525B7AE4D00A61304 /* StepThreeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92B848B325B7AE4D00A61304 /* StepThreeTableViewCell.xib */; };
+		92B848BB25B7AE6400A61304 /* StepFourTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B848B925B7AE6400A61304 /* StepFourTableViewCell.swift */; };
+		92B848BC25B7AE6400A61304 /* StepFourTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92B848BA25B7AE6400A61304 /* StepFourTableViewCell.xib */; };
+		92B848C225B7B4C200A61304 /* HeaderCadastroTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B848C025B7B4C200A61304 /* HeaderCadastroTableViewCell.swift */; };
+		92B848C325B7B4C200A61304 /* HeaderCadastroTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92B848C125B7B4C200A61304 /* HeaderCadastroTableViewCell.xib */; };
+		92B848C925B7BDC000A61304 /* InsertContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B848C725B7BDC000A61304 /* InsertContentViewController.swift */; };
+		92B848CA25B7BDC000A61304 /* InsertContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92B848C825B7BDC000A61304 /* InsertContentViewController.xib */; };
 		A1FD8FB0348CB6A159338577 /* Pods_recipe_recipeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 167E64865996315C8497CD07 /* Pods_recipe_recipeUITests.framework */; };
 		C3B1372425B662210078207C /* CadastroReceitaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B1372225B662210078207C /* CadastroReceitaViewController.swift */; };
 		C3B1372525B662210078207C /* CadastroReceitaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3B1372325B662210078207C /* CadastroReceitaViewController.xib */; };
@@ -61,6 +77,14 @@
 		92446B5D25B22D1800CC1090 /* Menu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Menu.storyboard; sourceTree = "<group>"; };
 		92446B9E25B22F7900CC1090 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		92446BA325B22FFE00CC1090 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		924B32FF25B7691E0060AC6D /* RecomendacoesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecomendacoesViewController.swift; sourceTree = "<group>"; };
+		924B330025B7691E0060AC6D /* RecomendacoesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecomendacoesViewController.xib; sourceTree = "<group>"; };
+		924B330825B774F20060AC6D /* InserirItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InserirItemViewController.swift; sourceTree = "<group>"; };
+		924B330925B774F20060AC6D /* InserirItemViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InserirItemViewController.xib; sourceTree = "<group>"; };
+		924B338125B7A8E60060AC6D /* StepOneTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepOneTableViewCell.swift; sourceTree = "<group>"; };
+		924B338225B7A8E60060AC6D /* StepOneTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StepOneTableViewCell.xib; sourceTree = "<group>"; };
+		924B338825B7AD1E0060AC6D /* StepTwoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepTwoTableViewCell.swift; sourceTree = "<group>"; };
+		924B338925B7AD1E0060AC6D /* StepTwoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StepTwoTableViewCell.xib; sourceTree = "<group>"; };
 		9285DF0A25AFC07F00E4AD2C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		9285DF1225AFC21800E4AD2C /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		928B40FE25AF8F6300F0634E /* recipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = recipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +103,14 @@
 		929A073A25B1016B00C47264 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		929A074025B1018B00C47264 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		929A074125B1018B00C47264 /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		92B848B225B7AE4D00A61304 /* StepThreeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepThreeTableViewCell.swift; sourceTree = "<group>"; };
+		92B848B325B7AE4D00A61304 /* StepThreeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StepThreeTableViewCell.xib; sourceTree = "<group>"; };
+		92B848B925B7AE6400A61304 /* StepFourTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepFourTableViewCell.swift; sourceTree = "<group>"; };
+		92B848BA25B7AE6400A61304 /* StepFourTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StepFourTableViewCell.xib; sourceTree = "<group>"; };
+		92B848C025B7B4C200A61304 /* HeaderCadastroTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCadastroTableViewCell.swift; sourceTree = "<group>"; };
+		92B848C125B7B4C200A61304 /* HeaderCadastroTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderCadastroTableViewCell.xib; sourceTree = "<group>"; };
+		92B848C725B7BDC000A61304 /* InsertContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertContentViewController.swift; sourceTree = "<group>"; };
+		92B848C825B7BDC000A61304 /* InsertContentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InsertContentViewController.xib; sourceTree = "<group>"; };
 		B3A555153B7166A0C07FB122 /* Pods-recipe-recipeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-recipe-recipeUITests.debug.xcconfig"; path = "Target Support Files/Pods-recipe-recipeUITests/Pods-recipe-recipeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C3B1372225B662210078207C /* CadastroReceitaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroReceitaViewController.swift; sourceTree = "<group>"; };
 		C3B1372325B662210078207C /* CadastroReceitaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CadastroReceitaViewController.xib; sourceTree = "<group>"; };
@@ -169,6 +201,51 @@
 				92446BA325B22FFE00CC1090 /* HomeViewController.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		924B32FE25B768F90060AC6D /* Recomendacoes */ = {
+			isa = PBXGroup;
+			children = (
+				924B32FF25B7691E0060AC6D /* RecomendacoesViewController.swift */,
+				924B330025B7691E0060AC6D /* RecomendacoesViewController.xib */,
+			);
+			path = Recomendacoes;
+			sourceTree = "<group>";
+		};
+		924B337D25B7A8A20060AC6D /* StepOne */ = {
+			isa = PBXGroup;
+			children = (
+				924B338125B7A8E60060AC6D /* StepOneTableViewCell.swift */,
+				924B338225B7A8E60060AC6D /* StepOneTableViewCell.xib */,
+			);
+			path = StepOne;
+			sourceTree = "<group>";
+		};
+		924B337E25B7A8AD0060AC6D /* StepTwo */ = {
+			isa = PBXGroup;
+			children = (
+				924B338825B7AD1E0060AC6D /* StepTwoTableViewCell.swift */,
+				924B338925B7AD1E0060AC6D /* StepTwoTableViewCell.xib */,
+			);
+			path = StepTwo;
+			sourceTree = "<group>";
+		};
+		924B337F25B7A8B50060AC6D /* StepThree */ = {
+			isa = PBXGroup;
+			children = (
+				92B848B225B7AE4D00A61304 /* StepThreeTableViewCell.swift */,
+				92B848B325B7AE4D00A61304 /* StepThreeTableViewCell.xib */,
+			);
+			path = StepThree;
+			sourceTree = "<group>";
+		};
+		924B338025B7A8C30060AC6D /* StepFour */ = {
+			isa = PBXGroup;
+			children = (
+				92B848B925B7AE6400A61304 /* StepFourTableViewCell.swift */,
+				92B848BA25B7AE6400A61304 /* StepFourTableViewCell.xib */,
+			);
+			path = StepFour;
 			sourceTree = "<group>";
 		};
 		9285DF0825AFC04200E4AD2C /* Network */ = {
@@ -302,6 +379,14 @@
 		C326DE3325B6725A00CD2893 /* StepView */ = {
 			isa = PBXGroup;
 			children = (
+				924B338025B7A8C30060AC6D /* StepFour */,
+				924B337F25B7A8B50060AC6D /* StepThree */,
+				924B337E25B7A8AD0060AC6D /* StepTwo */,
+				924B337D25B7A8A20060AC6D /* StepOne */,
+				92B848C025B7B4C200A61304 /* HeaderCadastroTableViewCell.swift */,
+				92B848C125B7B4C200A61304 /* HeaderCadastroTableViewCell.xib */,
+				92B848C725B7BDC000A61304 /* InsertContentViewController.swift */,
+				92B848C825B7BDC000A61304 /* InsertContentViewController.xib */,
 			);
 			path = StepView;
 			sourceTree = "<group>";
@@ -309,6 +394,7 @@
 		C3B1372025B661FF0078207C /* Receitas */ = {
 			isa = PBXGroup;
 			children = (
+				924B32FE25B768F90060AC6D /* Recomendacoes */,
 				C3B1372125B662060078207C /* CadastroReceita */,
 			);
 			path = Receitas;
@@ -320,6 +406,8 @@
 				C326DE3325B6725A00CD2893 /* StepView */,
 				C3B1372225B662210078207C /* CadastroReceitaViewController.swift */,
 				C3B1372325B662210078207C /* CadastroReceitaViewController.xib */,
+				924B330825B774F20060AC6D /* InserirItemViewController.swift */,
+				924B330925B774F20060AC6D /* InserirItemViewController.xib */,
 			);
 			path = CadastroReceita;
 			sourceTree = "<group>";
@@ -441,13 +529,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				92446B9F25B22F7900CC1090 /* Home.storyboard in Resources */,
+				92B848B525B7AE4D00A61304 /* StepThreeTableViewCell.xib in Resources */,
 				92446B5E25B22D1800CC1090 /* Menu.storyboard in Resources */,
 				929A073C25B1016B00C47264 /* LoginViewController.xib in Resources */,
 				928B410E25AF8F6500F0634E /* LaunchScreen.storyboard in Resources */,
 				92446B2A25B2092600CC1090 /* GoogleService-Info.plist in Resources */,
 				C3B1372525B662210078207C /* CadastroReceitaViewController.xib in Resources */,
+				924B338B25B7AD1E0060AC6D /* StepTwoTableViewCell.xib in Resources */,
 				928B410B25AF8F6500F0634E /* Assets.xcassets in Resources */,
+				924B330225B7691E0060AC6D /* RecomendacoesViewController.xib in Resources */,
+				924B330B25B774F30060AC6D /* InserirItemViewController.xib in Resources */,
+				92B848BC25B7AE6400A61304 /* StepFourTableViewCell.xib in Resources */,
+				92B848C325B7B4C200A61304 /* HeaderCadastroTableViewCell.xib in Resources */,
+				924B338425B7A8E60060AC6D /* StepOneTableViewCell.xib in Resources */,
 				929A074325B1018C00C47264 /* RegisterViewController.xib in Resources */,
+				92B848CA25B7BDC000A61304 /* InsertContentViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -575,16 +671,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92B848C225B7B4C200A61304 /* HeaderCadastroTableViewCell.swift in Sources */,
+				924B330A25B774F30060AC6D /* InserirItemViewController.swift in Sources */,
+				92B848BB25B7AE6400A61304 /* StepFourTableViewCell.swift in Sources */,
 				C3C227D525B1349A006F63B7 /* UIViewController.swift in Sources */,
 				929A073B25B1016B00C47264 /* LoginViewController.swift in Sources */,
+				92B848B425B7AE4D00A61304 /* StepThreeTableViewCell.swift in Sources */,
 				9285DF1325AFC21800E4AD2C /* Network.swift in Sources */,
+				924B338A25B7AD1E0060AC6D /* StepTwoTableViewCell.swift in Sources */,
 				929A074225B1018B00C47264 /* RegisterViewController.swift in Sources */,
 				9285DF0B25AFC07F00E4AD2C /* User.swift in Sources */,
 				C3B1372425B662210078207C /* CadastroReceitaViewController.swift in Sources */,
 				92446BA425B22FFE00CC1090 /* HomeViewController.swift in Sources */,
 				92446B4A25B20A1500CC1090 /* REAlertas.swift in Sources */,
 				928B410225AF8F6300F0634E /* AppDelegate.swift in Sources */,
+				924B330125B7691E0060AC6D /* RecomendacoesViewController.swift in Sources */,
+				92B848C925B7BDC000A61304 /* InsertContentViewController.swift in Sources */,
 				928B410425AF8F6300F0634E /* SceneDelegate.swift in Sources */,
+				924B338325B7A8E60060AC6D /* StepOneTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

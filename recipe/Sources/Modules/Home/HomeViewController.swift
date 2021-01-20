@@ -44,6 +44,9 @@ class HomeViewController: UIViewController {
     }
     
     @IBAction func adcReceitaTapped(_ sender: UIButton) {
+//        let viewController:UIViewController = UIStoryboard(name: "EnviarReceita", bundle: nil).instantiateViewController(withIdentifier: "EnviarReceitarNavigation") as UIViewController
+//        viewController.modalPresentationStyle = .fullScreen
+//        self.present(viewController, animated: false, completion: nil)
         let vc = CadastroReceitaViewController()
         vc.modalPresentationStyle = .fullScreen
         self.present(vc, animated: true, completion: nil)
